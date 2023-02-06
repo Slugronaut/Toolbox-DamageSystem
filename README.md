@@ -14,3 +14,6 @@ Components, events, messages, and handlers for a generic damage system.
 [com.postegames.messagedispatcher](https://github.com/Slugronaut/Toolbox-MessageDispatch)  
 [com.postegames.toolfx](https://github.com/Slugronaut/Toolbox-ToolFX)  
 [com.postegames.unityextensions](https://github.com/Slugronaut/Toolbox-UnityExtensions)  
+
+# Third-Party Dependencies:  
+[Odin](https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041)  
