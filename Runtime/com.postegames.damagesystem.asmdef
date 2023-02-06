@@ -1,0 +1,27 @@
+{
+    "name": "com.postegames.damagesystem",
+    "rootNamespace": "",
+    "references": [
+        "GUID:def7871dffb59e74e9f429b680c85ae4",
+        "GUID:9004569ac4ebb1d4382d0d8ebfe56c94",
+        "GUID:1d4c14c389e52fe449678815c0e575f8",
+        "GUID:09d412232a7594641a5babcb01aa5e01",
+        "GUID:9c0a338e6b91ff44d87dfae00e162757",
+        "GUID:e0f58bfe6a703f24a85f9333758706b6",
+        "GUID:7c52243ddb997824ba4d736d17597c55",
+        "GUID:8f91392d17a044540acd7ddb52cd21ce",
+        "GUID:dc94f14f63ef82d44845274547c4f221",
+        "GUID:320e6532ec885b142a3fb20a1602bf4f",
+        "GUID:52416e693a1827a41babe60c0bb871b1",
+        "GUID:5d2de123429b952439048354a2e815c1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

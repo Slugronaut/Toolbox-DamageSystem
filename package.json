@@ -1,0 +1,30 @@
+{
+  "name": "com.postegames.damagesystem",
+  "version": "1.0.0",
+  "displayName": "PEGGAME - Damage System",
+  "description": "Components, events, messages, and handlers for a generic damage system.",
+  "unity": "2022.2",
+  "dependencies": {
+    "com.postegames.autocreatable": "",
+    "com.postegames.autonomousentities": "",
+    "com.postegames.eventbehaviourframework": "",
+    "com.postegames.gameplaysystems": "",
+    "com.postegames.graphicstools": "",
+    "com.postegames.hashedstring": "",
+    "com.postegames.lazarus": "",
+    "com.postegames.mathutils": "",
+    "com.postegames.messagebehaviourframework": "",
+    "com.postegames.messagedispatcher": "",
+    "com.postegames.toolfx": "",
+    "com.postegames.unityextensions": ""
+  },
+  "keywords": [
+    "damage",
+    "combat"
+  ],
+  "author": {
+    "name": "Sluggy",
+    "email": "jcsluggy@gmail.com",
+    "url": "http:/postegames.com"
+  }
+}
