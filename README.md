@@ -4,7 +4,7 @@ Components, events, messages, and handlers for a generic damage system.
 # Dependencies:  
 [com.postegames.autocreatable](https://github.com/Slugronaut/Toolbox-AutoCreatable)  
 [com.postegames.autonomousentities](https://github.com/Slugronaut/Toolbox-AutonomousEntities)  
-[com.postegames.eventbehaviourframework](https://github.com/Slugronaut/Toolbox-EventBehaviourFramework) 
+[com.postegames.eventbehaviourframework](https://github.com/Slugronaut/Toolbox-EventBehaviourFramework)  
 [com.postegames.gameplaysystems](https://github.com/Slugronaut/Toolbox-GameplaySystems)  
 [com.postegames.graphicstools](https://github.com/Slugronaut/Toolbox-GraphicsTools)  
 [com.postegames.hashedstring](https://github.com/Slugronaut/Toolbox-HashedString)  
