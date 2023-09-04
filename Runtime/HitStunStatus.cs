@@ -2,10 +2,11 @@
 using UnityEngine;
 using UnityEngine.Events;
 using Sirenix.OdinInspector;
-using Toolbox.Graphics;
-using Toolbox.Messaging;
+using Peg.Graphics;
+using Peg.Messaging;
+using Peg.Lib;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Attach to an entity that can be stunned by a 'HitStunApplier' or by damage in general.
@@ -187,12 +188,12 @@ namespace Toolbox.Game
                     Vector3 vel;
                     if (Mode == KnockbackModes.DirectionOfFacing)
                     {
-                        var offset = Toolbox.Math.MathUtils.ForwardSpaceOffset(pos, trans.forward, KnockbackForce);
+                        var offset = MathUtils.ForwardSpaceOffset(pos, trans.forward, KnockbackForce);
                         vel = pos - offset;
                     }
                     else
                     {
-                        var offset = Toolbox.Math.MathUtils.ForwardSpaceOffset(pos, Vector3.Scale((hitPoint - pos).normalized, DirectionScaling), KnockbackForce);
+                        var offset = MathUtils.ForwardSpaceOffset(pos, Vector3.Scale((hitPoint - pos).normalized, DirectionScaling), KnockbackForce);
                         vel = pos - offset;
                     }
                     if(Mover != null)
