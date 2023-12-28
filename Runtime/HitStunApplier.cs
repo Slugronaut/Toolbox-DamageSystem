@@ -1,9 +1,9 @@
 ﻿using Sirenix.OdinInspector;
 using Peg;
-using Peg.Game;
-using Peg.Graphics;
 using ToolFx;
 using UnityEngine;
+using Peg.Game.ConsumableResource;
+using Peg.AutonomousEntities;
 
 namespace DamageSystem
 {

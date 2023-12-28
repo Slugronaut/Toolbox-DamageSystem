@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine.Events;
-using Peg;
 using Peg.Messaging;
+using Peg.MessageDispatcher;
 
 namespace DamageSystem
 {

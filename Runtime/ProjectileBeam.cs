@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
-using Peg;
 using UnityEngine.Events;
 using System;
 using ToolFx;
 using Sirenix.OdinInspector;
 using Peg.Lazarus;
+using Peg.AutonomousEntities;
 
 namespace DamageSystem
 {
@@ -49,7 +49,6 @@ namespace DamageSystem
         [Serializable]
         public class BeamStrikeEvent : UnityEvent<GameObject> { }
 
-        float StartTime;
         float BeamLength;
         Transform SourceTrans;
         Transform MyTrans;
@@ -73,7 +72,7 @@ namespace DamageSystem
             }
             MyTrans = transform;
             BeamLength = 0;
-            StartTime = Time.time;
+            //StartTime = Time.timeAsDouble;
             Killing = false;
         }
 

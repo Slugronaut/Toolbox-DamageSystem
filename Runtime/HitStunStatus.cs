@@ -5,8 +5,11 @@ using Sirenix.OdinInspector;
 using Peg.Graphics;
 using Peg.Messaging;
 using Peg.Lib;
+using Peg.Game.ConsumableResource;
+using Peg;
+using Peg.AutonomousEntities;
 
-namespace Peg.Game
+namespace DamageSystem
 {
     /// <summary>
     /// Attach to an entity that can be stunned by a 'HitStunApplier' or by damage in general.
@@ -173,7 +176,7 @@ namespace Peg.Game
         IEnumerator StunEffect(Health health, bool knockBack, bool animate, Vector3 hitPoint)
         {
             var waitTime = CoroutineWaitFactory.RequestWait(FlickerRate);
-            var start = Time.timeSinceLevelLoad;
+            var start = Time.timeSinceLevelLoadAsDouble;
 
             if(knockBack && HitStunTime > 0)
             {
@@ -236,7 +239,7 @@ namespace Peg.Game
             }
             else
             { 
-                while (Time.timeSinceLevelLoad - start < FlickerTime)
+                while (Time.timeSinceLevelLoadAsDouble - start < FlickerTime)
                 {
                     if (health.IsDead) break;
                     if (Sprites.Length > 0)

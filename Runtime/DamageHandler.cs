@@ -1,9 +1,10 @@
 ﻿using Peg;
 using UnityEngine;
-
 using Sirenix.OdinInspector;
 using UnityEngine.Events;
-using Peg.Game;
+using Peg.Game.ConsumableResource;
+using Peg.AutonomousEntities;
+using Peg.MessageDispatcher;
 
 namespace DamageSystem
 {
@@ -86,7 +87,7 @@ namespace DamageSystem
         public AgentTargetEntityEvent OnKilledTarget;
 
 
-        protected float LastTime;
+        protected double LastTime;
         protected EntityRoot Root;
         protected Transform Trans;
         
@@ -126,7 +127,7 @@ namespace DamageSystem
 
             if (Freq > 0)
             {
-                float t = Time.time;
+                double t = Time.timeAsDouble;
                 if (t - LastTime < Freq) return;
                 else LastTime = t;
             }

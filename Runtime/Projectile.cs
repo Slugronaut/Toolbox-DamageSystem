@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine.Events;
 using System;
 using Sirenix.OdinInspector;
-using Peg;
 using Peg.Graphics;
 using ToolFx;
 using UnityEngine.Assertions;
 using Peg.Messaging;
 using Peg.Lazarus;
+using Peg.AutonomousEntities;
 
 namespace DamageSystem
 {

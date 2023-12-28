@@ -1,4 +1,6 @@
-﻿using Peg;
+﻿using Peg.AutonomousEntities;
+using Peg.Game.ConsumableResource;
+using Peg.MessageDispatcher;
 using Peg.Messaging;
 using UnityEngine;
 

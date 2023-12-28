@@ -4,6 +4,9 @@ using Peg.Game;
 using System;
 using Random = UnityEngine.Random;
 using Peg.AutoCreate;
+using Peg.Game.ConsumableResource;
+using Peg.AutonomousEntities;
+using Peg.MessageDispatcher;
 
 namespace DamageSystem
 {
